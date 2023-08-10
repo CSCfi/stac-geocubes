@@ -1,0 +1,675 @@
+{
+  "type": "Collection",
+  "id": "forest_inventory_site_main_class_at_geocubes",
+  "stac_version": "1.0.0",
+  "description": "Forest land, poorly productive forest land and unproductive land divided into mineral soil and peatland site classes, from the Multi-Source National Forest Inventory of Finland",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_0_6700000/forest_inventory_site_main_class_2009_0_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_0_6800000/forest_inventory_site_main_class_2009_0_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_100000_6700000/forest_inventory_site_main_class_2009_100000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_100000_6800000/forest_inventory_site_main_class_2009_100000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_100000_6900000/forest_inventory_site_main_class_2009_100000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_100000_7000000/forest_inventory_site_main_class_2009_100000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_100000_7100000/forest_inventory_site_main_class_2009_100000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_200000_6700000/forest_inventory_site_main_class_2009_200000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_200000_6800000/forest_inventory_site_main_class_2009_200000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_200000_6900000/forest_inventory_site_main_class_2009_200000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_200000_7000000/forest_inventory_site_main_class_2009_200000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_200000_7100000/forest_inventory_site_main_class_2009_200000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_200000_7200000/forest_inventory_site_main_class_2009_200000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_200000_7700000/forest_inventory_site_main_class_2009_200000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_6700000/forest_inventory_site_main_class_2009_300000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_6800000/forest_inventory_site_main_class_2009_300000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_6900000/forest_inventory_site_main_class_2009_300000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_7000000/forest_inventory_site_main_class_2009_300000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_7100000/forest_inventory_site_main_class_2009_300000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_7200000/forest_inventory_site_main_class_2009_300000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_7300000/forest_inventory_site_main_class_2009_300000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_7400000/forest_inventory_site_main_class_2009_300000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_7500000/forest_inventory_site_main_class_2009_300000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_7600000/forest_inventory_site_main_class_2009_300000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_300000_7700000/forest_inventory_site_main_class_2009_300000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_6700000/forest_inventory_site_main_class_2009_400000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_6800000/forest_inventory_site_main_class_2009_400000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_6900000/forest_inventory_site_main_class_2009_400000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7000000/forest_inventory_site_main_class_2009_400000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7100000/forest_inventory_site_main_class_2009_400000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7200000/forest_inventory_site_main_class_2009_400000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7300000/forest_inventory_site_main_class_2009_400000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7400000/forest_inventory_site_main_class_2009_400000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7500000/forest_inventory_site_main_class_2009_400000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7600000/forest_inventory_site_main_class_2009_400000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7700000/forest_inventory_site_main_class_2009_400000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_400000_7800000/forest_inventory_site_main_class_2009_400000_7800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_6700000/forest_inventory_site_main_class_2009_500000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_6800000/forest_inventory_site_main_class_2009_500000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_6900000/forest_inventory_site_main_class_2009_500000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7000000/forest_inventory_site_main_class_2009_500000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7100000/forest_inventory_site_main_class_2009_500000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7200000/forest_inventory_site_main_class_2009_500000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7300000/forest_inventory_site_main_class_2009_500000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7400000/forest_inventory_site_main_class_2009_500000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7500000/forest_inventory_site_main_class_2009_500000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7600000/forest_inventory_site_main_class_2009_500000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7700000/forest_inventory_site_main_class_2009_500000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_500000_7800000/forest_inventory_site_main_class_2009_500000_7800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_6800000/forest_inventory_site_main_class_2009_600000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_6900000/forest_inventory_site_main_class_2009_600000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_7000000/forest_inventory_site_main_class_2009_600000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_7100000/forest_inventory_site_main_class_2009_600000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_7200000/forest_inventory_site_main_class_2009_600000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_7300000/forest_inventory_site_main_class_2009_600000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_7400000/forest_inventory_site_main_class_2009_600000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_7500000/forest_inventory_site_main_class_2009_600000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_600000_7600000/forest_inventory_site_main_class_2009_600000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_700000_7000000/forest_inventory_site_main_class_2009_700000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2009_700000_7100000/forest_inventory_site_main_class_2009_700000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_0_6700000/forest_inventory_site_main_class_2015_0_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_0_6800000/forest_inventory_site_main_class_2015_0_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_100000_6700000/forest_inventory_site_main_class_2015_100000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_100000_6800000/forest_inventory_site_main_class_2015_100000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_100000_6900000/forest_inventory_site_main_class_2015_100000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_100000_7000000/forest_inventory_site_main_class_2015_100000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_100000_7100000/forest_inventory_site_main_class_2015_100000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_200000_6700000/forest_inventory_site_main_class_2015_200000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_200000_6800000/forest_inventory_site_main_class_2015_200000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_200000_6900000/forest_inventory_site_main_class_2015_200000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_200000_7000000/forest_inventory_site_main_class_2015_200000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_200000_7100000/forest_inventory_site_main_class_2015_200000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_200000_7200000/forest_inventory_site_main_class_2015_200000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_200000_7700000/forest_inventory_site_main_class_2015_200000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_6700000/forest_inventory_site_main_class_2015_300000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_6800000/forest_inventory_site_main_class_2015_300000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_6900000/forest_inventory_site_main_class_2015_300000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_7000000/forest_inventory_site_main_class_2015_300000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_7100000/forest_inventory_site_main_class_2015_300000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_7200000/forest_inventory_site_main_class_2015_300000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_7300000/forest_inventory_site_main_class_2015_300000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_7400000/forest_inventory_site_main_class_2015_300000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_7500000/forest_inventory_site_main_class_2015_300000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_7600000/forest_inventory_site_main_class_2015_300000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_300000_7700000/forest_inventory_site_main_class_2015_300000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_6700000/forest_inventory_site_main_class_2015_400000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_6800000/forest_inventory_site_main_class_2015_400000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_6900000/forest_inventory_site_main_class_2015_400000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7000000/forest_inventory_site_main_class_2015_400000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7100000/forest_inventory_site_main_class_2015_400000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7200000/forest_inventory_site_main_class_2015_400000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7300000/forest_inventory_site_main_class_2015_400000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7400000/forest_inventory_site_main_class_2015_400000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7500000/forest_inventory_site_main_class_2015_400000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7600000/forest_inventory_site_main_class_2015_400000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7700000/forest_inventory_site_main_class_2015_400000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_400000_7800000/forest_inventory_site_main_class_2015_400000_7800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_6700000/forest_inventory_site_main_class_2015_500000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_6800000/forest_inventory_site_main_class_2015_500000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_6900000/forest_inventory_site_main_class_2015_500000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7000000/forest_inventory_site_main_class_2015_500000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7100000/forest_inventory_site_main_class_2015_500000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7200000/forest_inventory_site_main_class_2015_500000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7300000/forest_inventory_site_main_class_2015_500000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7400000/forest_inventory_site_main_class_2015_500000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7500000/forest_inventory_site_main_class_2015_500000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7600000/forest_inventory_site_main_class_2015_500000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7700000/forest_inventory_site_main_class_2015_500000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_500000_7800000/forest_inventory_site_main_class_2015_500000_7800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_6800000/forest_inventory_site_main_class_2015_600000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_6900000/forest_inventory_site_main_class_2015_600000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_7000000/forest_inventory_site_main_class_2015_600000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_7100000/forest_inventory_site_main_class_2015_600000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_7200000/forest_inventory_site_main_class_2015_600000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_7300000/forest_inventory_site_main_class_2015_600000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_7400000/forest_inventory_site_main_class_2015_600000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_7500000/forest_inventory_site_main_class_2015_600000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_600000_7600000/forest_inventory_site_main_class_2015_600000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_700000_7000000/forest_inventory_site_main_class_2015_700000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./forest_inventory_site_main_class_2015_700000_7100000/forest_inventory_site_main_class_2015_700000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Forest inventory, site main class",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          17.729394097730392,
+          59.24179974470586,
+          33.11821222941806,
+          70.30601749428304
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-01-01T00:00:00Z",
+          "2015-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "CSC Finland",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.csc.fi/"
+    },
+    {
+      "name": "LUKE",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "summaries": {
+    "gsd": [
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      1000
+    ]
+  },
+  "assets": {
+    "meta": {
+      "href": "https://www.paikkatietohakemisto.fi/geonetwork/srv/fin/catalog.search#/metadata/c2ca1093-c111-4062-9c32-0bb9e3de159d",
+      "title": "Metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

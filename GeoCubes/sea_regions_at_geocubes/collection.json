@@ -1,0 +1,378 @@
+{
+  "type": "Collection",
+  "id": "sea_regions_at_geocubes",
+  "stac_version": "1.0.0",
+  "description": "Sea regions of Finland",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_0_6700000/sea_regions_2018_0_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_0_6800000/sea_regions_2018_0_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_100000_6700000/sea_regions_2018_100000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_100000_6800000/sea_regions_2018_100000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_100000_6900000/sea_regions_2018_100000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_100000_7000000/sea_regions_2018_100000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_100000_7100000/sea_regions_2018_100000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_200000_6700000/sea_regions_2018_200000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_200000_6800000/sea_regions_2018_200000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_200000_6900000/sea_regions_2018_200000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_200000_7000000/sea_regions_2018_200000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_200000_7100000/sea_regions_2018_200000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_200000_7200000/sea_regions_2018_200000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_200000_7700000/sea_regions_2018_200000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_6700000/sea_regions_2018_300000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_6800000/sea_regions_2018_300000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_6900000/sea_regions_2018_300000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_7000000/sea_regions_2018_300000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_7100000/sea_regions_2018_300000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_7200000/sea_regions_2018_300000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_7300000/sea_regions_2018_300000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_7400000/sea_regions_2018_300000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_7500000/sea_regions_2018_300000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_7600000/sea_regions_2018_300000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_300000_7700000/sea_regions_2018_300000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_6700000/sea_regions_2018_400000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_6800000/sea_regions_2018_400000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_6900000/sea_regions_2018_400000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7000000/sea_regions_2018_400000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7100000/sea_regions_2018_400000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7200000/sea_regions_2018_400000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7300000/sea_regions_2018_400000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7400000/sea_regions_2018_400000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7500000/sea_regions_2018_400000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7600000/sea_regions_2018_400000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7700000/sea_regions_2018_400000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_400000_7800000/sea_regions_2018_400000_7800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_6700000/sea_regions_2018_500000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_6800000/sea_regions_2018_500000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_6900000/sea_regions_2018_500000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7000000/sea_regions_2018_500000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7100000/sea_regions_2018_500000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7200000/sea_regions_2018_500000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7300000/sea_regions_2018_500000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7400000/sea_regions_2018_500000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7500000/sea_regions_2018_500000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7600000/sea_regions_2018_500000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7700000/sea_regions_2018_500000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_500000_7800000/sea_regions_2018_500000_7800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_6800000/sea_regions_2018_600000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_6900000/sea_regions_2018_600000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_7000000/sea_regions_2018_600000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_7100000/sea_regions_2018_600000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_7200000/sea_regions_2018_600000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_7300000/sea_regions_2018_600000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_7400000/sea_regions_2018_600000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_7500000/sea_regions_2018_600000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_600000_7600000/sea_regions_2018_600000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_700000_7000000/sea_regions_2018_700000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sea_regions_2018_700000_7100000/sea_regions_2018_700000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Sea regions",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          17.729394097730392,
+          59.24179974470586,
+          33.11821222941806,
+          70.30601749428304
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2018-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "CSC Finland",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.csc.fi/"
+    },
+    {
+      "name": "MML",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "summaries": {
+    "gsd": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      1000
+    ]
+  },
+  "assets": {
+    "meta": {
+      "href": "https://www.paikkatietohakemisto.fi/geonetwork/srv/fin/catalog.search#/metadata/ddad3347-05ca-401a-b746-d883d4110180",
+      "title": "Metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
