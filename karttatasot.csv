@@ -1,0 +1,37 @@
+Nimi,Name,Description
+Valtakunta,Country,Country
+Valtakunta maa,Country land,Country land area
+Aluehallintovirastojako,Regional State Administrative Agencies,Regional State Administrative Agencies in Finland (AVI)
+Aluehallintovirastojako maa,Regional State Administrative Agencies land,Regional State Administrative Agencies in Finland (AVI) land area
+Maakuntajako,Regions,Regions in Finland
+Maakuntajako maa,Regions land,Regions in Finland land area
+Kuntajako,Municipalities,Municipalities in Finland
+Kuntajako maa,Municipalities land,Municipalities in Finland land area
+Korkeusmalli 10 m,Digital Terrain Model 10m,Digital Terrain Model (DTM) representing ground surface with 10m original resolution
+Korkeusmalli 2 m,Digital Terrain Model 2m,Digital Terrain Model (DTM) representing ground surface with 2m original resolution
+Korkeusmalli 2 m aspekti,"Digital Terrain Model 2m, Aspect","Azimuth of the terrain surface's normal, DTM with 2m original resolution"
+Korkeusmalli 2 m kaltevuus,"Digital Terrain Model 2m, Slope","Angle between the terrain's tangent and horizontal plane, DTM with 2m original resolution"
+Pintamalli,Digital Surface Model,Surface model of both the natural and built/artificial features of the environment
+Meri,Sea regions,Sea regions of Finland
+Ortokuva,Orthophoto,Geometrically corrected aerial photograph
+Suo,Peatland,Land consisting largely of peat or peat bogs
+Rakennus,Building,"Buildings, based on the Topographic database"
+Peltolohkot,Land parcels,Land parcels receiving yearly subsidies
+CORINE,Corine Land Cover,Thematically detailed information on land cover and land cover changes across Europe
+Puustoisuusluokat,Forest stand class,Forest stand classification
+Kasvillisuuden korkeus,Vegetation height,Height of vegetation based on laser scanning analysis
+Latvuspeitto,Canopy cover,Percentage of the area covered by tree canopies
+NDVI:n maksimiarvo v.2021,NDVI max 2021,Maximum value of the Normalized Difference Vegetation Index calculated from Sentinel-2 image index mosaics
+Sentinel-2 kuvamosaiikki 07/2021,Sentinel-2 satellite image mosaic 07/2021,"Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B02, B03, B04)"
+Sentinel-2 NIR (kanava 8) 07/2021,Sentinel-2 NIR (B08) 07/2021,Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B08)
+Sentinel-2 SWIR (kanava 11) 07/2021,Sentinel-2 SWIR (B11) 07/2021,Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B11)
+MVMI kokonaistilavuus,"Forest inventory, volume of growing stock","The volume of growing stock is available as a total for all tree species, from the Multi-Source National Forest Inventory of Finland"
+MVMI kuusi,"Forest inventory, volume spruce","Volume of growing spruce stock, from the Multi-Source National Forest Inventory of Finland"
+MVMI mänty,"Forest inventory, volume pine","Volume of growing pine stock, from the Multi-Source National Forest Inventory of Finland"
+MVMI koivu,"Forest inventory, volume birch","Volume of growing birch stock, from the Multi-Source National Forest Inventory of Finland"
+MVMI pohjapinta-ala,"Forest inventory, basal area","The basal area of the growing stock on a forest stand is the cross section area of the tree stems of a stand per hectare and measured at a height of 1.3m, from the Multi-Source National Forest Inventory of Finland"
+MVMI maaluokka,"Forest inventory, land class","Forestry land divided into three sub-categories: forest land, poorly productive forest land and unproductive land, from the Multi-Source National Forest Inventory of Finland"
+MVMI päätyyppi,"Forest inventory, site main class","Forest land, poorly productive forest land and unproductive land divided into mineral soil and peatland site classes, from the Multi-Source National Forest Inventory of Finland"
+MVMI kasvupaikka,"Forest inventory, site fertility class","Forest grouped by vegetation zones into uniform classes according to their site fertility and wood production capacity, from the Multi-Source National Forest Inventory of Finland"
+Pintamaalaji,Superficial deposits,The Superficial deposits of Finland (sediment polygons)
+Tuuli,Wind velocity,Average wind velocity at the height of 50m
