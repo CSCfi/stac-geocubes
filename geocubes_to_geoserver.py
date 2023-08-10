@@ -116,10 +116,10 @@ def json_convert(jsonfile):
 
 if __name__ == "__main__":
 
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("--host", type=str, help="Hostname of the selected STAC API", required=True)
-    
-    # args = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--host", type=str, help="Hostname of the selected STAC API", required=True)
+
+    args = parser.parse_args()
 
     pwd = getpass.getpass()
 
@@ -128,8 +128,8 @@ if __name__ == "__main__":
     workingdir = Path(__file__).parent
     sentinel = workingdir / "GeoCubes" / collection_name
 
-    app_host = "http://86.50.229.158:8080/geoserver/rest/oseo/"
-    catalog = pystac_client.Client.open("http://86.50.229.158:8080/geoserver/ogc/stac/")#, request_modifier=change_to_https)
+    app_host = f"{args.host}/geoserver/rest/oseo/"
+    catalog = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/")#, request_modifier=change_to_https)
 
     # Convert the STAC collection json into json that GeoServer can handle
     converted = json_convert(sentinel / "collection.json")
