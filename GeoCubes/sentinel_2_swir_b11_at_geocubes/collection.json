@@ -1,0 +1,375 @@
+{
+  "type": "Collection",
+  "id": "sentinel_2_swir_b11_at_geocubes",
+  "stac_version": "1.0.0",
+  "description": "Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B11)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_0_6700000/sentinel2_swir_2021_0_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_0_6800000/sentinel2_swir_2021_0_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_100000_6700000/sentinel2_swir_2021_100000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_100000_6800000/sentinel2_swir_2021_100000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_100000_6900000/sentinel2_swir_2021_100000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_100000_7000000/sentinel2_swir_2021_100000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_100000_7100000/sentinel2_swir_2021_100000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_200000_6700000/sentinel2_swir_2021_200000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_200000_6800000/sentinel2_swir_2021_200000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_200000_6900000/sentinel2_swir_2021_200000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_200000_7000000/sentinel2_swir_2021_200000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_200000_7100000/sentinel2_swir_2021_200000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_200000_7200000/sentinel2_swir_2021_200000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_200000_7700000/sentinel2_swir_2021_200000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_6700000/sentinel2_swir_2021_300000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_6800000/sentinel2_swir_2021_300000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_6900000/sentinel2_swir_2021_300000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_7000000/sentinel2_swir_2021_300000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_7100000/sentinel2_swir_2021_300000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_7200000/sentinel2_swir_2021_300000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_7300000/sentinel2_swir_2021_300000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_7400000/sentinel2_swir_2021_300000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_7500000/sentinel2_swir_2021_300000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_7600000/sentinel2_swir_2021_300000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_300000_7700000/sentinel2_swir_2021_300000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_6700000/sentinel2_swir_2021_400000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_6800000/sentinel2_swir_2021_400000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_6900000/sentinel2_swir_2021_400000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7000000/sentinel2_swir_2021_400000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7100000/sentinel2_swir_2021_400000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7200000/sentinel2_swir_2021_400000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7300000/sentinel2_swir_2021_400000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7400000/sentinel2_swir_2021_400000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7500000/sentinel2_swir_2021_400000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7600000/sentinel2_swir_2021_400000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7700000/sentinel2_swir_2021_400000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_400000_7800000/sentinel2_swir_2021_400000_7800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_6700000/sentinel2_swir_2021_500000_6700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_6800000/sentinel2_swir_2021_500000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_6900000/sentinel2_swir_2021_500000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7000000/sentinel2_swir_2021_500000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7100000/sentinel2_swir_2021_500000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7200000/sentinel2_swir_2021_500000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7300000/sentinel2_swir_2021_500000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7400000/sentinel2_swir_2021_500000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7500000/sentinel2_swir_2021_500000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7600000/sentinel2_swir_2021_500000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7700000/sentinel2_swir_2021_500000_7700000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_500000_7800000/sentinel2_swir_2021_500000_7800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_6800000/sentinel2_swir_2021_600000_6800000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_6900000/sentinel2_swir_2021_600000_6900000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_7000000/sentinel2_swir_2021_600000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_7100000/sentinel2_swir_2021_600000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_7200000/sentinel2_swir_2021_600000_7200000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_7300000/sentinel2_swir_2021_600000_7300000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_7400000/sentinel2_swir_2021_600000_7400000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_7500000/sentinel2_swir_2021_600000_7500000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_600000_7600000/sentinel2_swir_2021_600000_7600000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_700000_7000000/sentinel2_swir_2021_700000_7000000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./sentinel2_swir_2021_700000_7100000/sentinel2_swir_2021_700000_7100000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Sentinel-2 SWIR (B11) 07/2021",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          17.729394097730392,
+          59.24179974470586,
+          33.11821222941806,
+          70.30601749428304
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "CSC Finland",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.csc.fi/"
+    },
+    {
+      "name": "SYKE",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "summaries": {
+    "gsd": [
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      1000
+    ]
+  },
+  "assets": {
+    "meta": {
+      "href": "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-2017-2021-s2gm-sentinel-2-satelliittikuvamosaiikki-2017-2021",
+      "title": "Metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

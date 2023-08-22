@@ -143,25 +143,25 @@
     },
     {
       "rel": "child",
-      "href": "./ndvi_max_2021_at_geocubes/collection.json",
+      "href": "./ndvi_max_at_geocubes/collection.json",
       "type": "application/json",
       "title": "NDVI max 2021"
     },
     {
       "rel": "child",
-      "href": "./sentinel_2_satellite_image_mosaic_07_2021_at_geocubes/collection.json",
+      "href": "./sentinel_2_satellite_image_mosaic_at_geocubes/collection.json",
       "type": "application/json",
       "title": "Sentinel-2 satellite image mosaic 07/2021"
     },
     {
       "rel": "child",
-      "href": "./sentinel_2_nir_b08_07_2021_at_geocubes/collection.json",
+      "href": "./sentinel_2_nir_b08_at_geocubes/collection.json",
       "type": "application/json",
       "title": "Sentinel-2 NIR (B08) 07/2021"
     },
     {
       "rel": "child",
-      "href": "./sentinel_2_swir_b11_07_2021_at_geocubes/collection.json",
+      "href": "./sentinel_2_swir_b11_at_geocubes/collection.json",
       "type": "application/json",
       "title": "Sentinel-2 SWIR (B11) 07/2021"
     },

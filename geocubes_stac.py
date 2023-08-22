@@ -17,6 +17,13 @@ def create_collection(collection_info, dataset_info):
     """
 
     col_name = re.sub('\W+','_', collection_info['Name'].lower())
+    if "sentinel" in col_name:
+        split = col_name.split("_")[:-2]
+        col_name = "_".join(split)
+    elif "ndvi" in col_name:
+        split = col_name.split("_")[:-1]
+        col_name = "_".join(split)
+
     col_id = f"{col_name}_at_geocubes"
 
     collection = pystac.Collection(
@@ -187,15 +194,26 @@ if __name__ == "__main__":
                         collection.summaries.lists["gsd"].append(assets[asset_id].extra_fields["gsd"])
                     min_gsd = min(min_gsd, assets[asset_id].extra_fields["gsd"])
 
-                item_year = key.split("_")[1]
+                item_year = year_path.split("/")[-1]
+                if "sentinel" in key:
+                    name = key.split("_")[0].replace('-', '_')
+                    item_info = "_".join(key.split(".")[0].split("_")[1:])
+                    item_id = f"{name.lower().replace(' ', '_').replace(',', '')}_{item_info}"
+                elif "ndvi" in key:
+                    name = key.split("_")[0]
+                    item_info = "_".join(key.split(".")[0].split("_")[1:])
+                    item_id = f"{name.lower()}_{item_info}"
+                else:
+                    item_info = "_".join(key.split(".")[0].split("_")[1:])
+                    item_id = f"{collection_info['Name'].lower().replace(' ', '_').replace(',', '')}_{item_info}"
+
                 item = create_stac_item(
-                    year_path+key+".tif", 
+                    source=year_path+key+".tif",
+                    id=item_id,
                     assets=assets, 
                     asset_media_type=pystac.MediaType.TIFF, 
-                    with_proj=True, 
+                    with_proj=True,
                 )
-                item_info = "_".join(item.id.split(".")[0].split("_")[1:])
-                item.id = f"{collection_info['Name'].lower().replace(' ', '_').replace(',', '')}_{item_info}"
                 item.common_metadata.start_datetime = item_starttime
                 item.common_metadata.end_datetime = item_endtime
                 item.extra_fields["gsd"] = min_gsd
