@@ -123,6 +123,7 @@ if __name__ == "__main__":
 
     pwd = getpass.getpass()
 
+    # The uploaded collection is specific below, this could be done with an argument in the future
     collection_name = "wind_velocity_at_geocubes"
 
     workingdir = Path(__file__).parent

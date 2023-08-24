@@ -16,6 +16,8 @@ def create_collection(collection_info, dataset_info):
         Returns the collection as pystac.Collection
     """
 
+    # The regural expression sub is changing the spaces into underscores
+    # For sentinel and NDVI collections, the name is specified a bit different as the names contain the years/months of the data
     col_name = re.sub('\W+','_', collection_info['Name'].lower())
     if "sentinel" in col_name:
         split = col_name.split("_")[:-2]
@@ -31,7 +33,8 @@ def create_collection(collection_info, dataset_info):
         title = collection_info['Name'],
         description = collection_info['Description'],
         license = "CC-BY-4.0",
-        extent = pystac.Extent( #Placeholder extents, updated from items later
+        #Placeholder extents, updated from items later
+        extent = pystac.Extent(
             spatial = pystac.SpatialExtent([[0,0,0,0]]),
             temporal = pystac.TemporalExtent([(
                 datetime.datetime.strptime(f"2000-01-01", "%Y-%m-%d"),
@@ -135,7 +138,8 @@ if __name__ == "__main__":
                 grouped_dict[prefix].append(item)
 
             for key in grouped_dict.keys():
-
+                
+                # Takes the year from the path
                 item_starttime = datetime.datetime.strptime(f"{year_path.split('/')[-2]}-01-01", "%Y-%m-%d")
                 item_endtime = datetime.datetime.strptime(f"{year_path.split('/')[-2]}-12-31", "%Y-%m-%d")
 
@@ -194,6 +198,7 @@ if __name__ == "__main__":
                         collection.summaries.lists["gsd"].append(assets[asset_id].extra_fields["gsd"])
                     min_gsd = min(min_gsd, assets[asset_id].extra_fields["gsd"])
 
+                # The sentinel and NDVI items are named a bit differently from the rest
                 item_year = year_path.split("/")[-1]
                 if "sentinel" in key:
                     name = key.split("_")[0].replace('-', '_')
@@ -220,6 +225,7 @@ if __name__ == "__main__":
                 collection.add_item(item)
                 print(f"* Item made: {item.id}")
 
+        # Updating the Spatial and Temporal Extents from the data
         bounds = [GeometryCollection([shape(s.geometry) for s in collection.get_all_items()]).bounds]
         start_times = [st.common_metadata.start_datetime for st in collection.get_all_items()]
         end_times = [et.common_metadata.end_datetime for et in collection.get_all_items()]
