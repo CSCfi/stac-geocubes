@@ -30,8 +30,8 @@ def create_collection(collection_info, dataset_info):
 
     collection = pystac.Collection(
         id = col_id,
-        title = collection_info['Name'],
-        description = collection_info['Description'],
+        title = f"{collection_info['Name']} (GeoCubes)",
+        description = f"{collection_info['Description']}. Provided by YYYY. Scale: XXXX. Coordinate system: ETRS-TM35FIN.",
         license = "CC-BY-4.0",
         #Placeholder extents, updated from items later
         extent = pystac.Extent(
@@ -46,10 +46,6 @@ def create_collection(collection_info, dataset_info):
                 name = "CSC Finland",
                 url = "https://www.csc.fi/",
                 roles = ["host"]
-            ),
-            pystac.Provider(
-                name = dataset_info['producer'],
-                roles = ["producer"]
             )
         ],
         assets = {
@@ -65,6 +61,51 @@ def create_collection(collection_info, dataset_info):
             }
         )
     )
+
+    if "sentinel" in col_name:
+        collection.providers.append(
+            pystac.Provider(
+                name = "ESA",
+                roles = ["producer"]
+            )
+        )
+
+    if dataset_info["producer"] == "MML":
+        collection.description = re.sub("YYYY", "NLS", collection.description)
+        collection.providers.append(
+            pystac.Provider(
+                name = "NLS",
+                roles = ["producer", "processor"]
+            )
+        )
+    elif dataset_info["producer"] == "IL":
+        collection.description = re.sub("YYYY", "FMI", collection.description)
+        collection.providers.append(
+            pystac.Provider(
+                name = "FMI",
+                roles = ["producer"]
+            )
+        )
+        collection.providers.append(
+            pystac.Provider(
+                    name = "NLS",
+                    roles = ["processor"]
+            )
+        )
+    else:
+        collection.description = re.sub("YYYY", dataset_info["producer"], collection.description)
+        collection.providers.append(
+            pystac.Provider(
+                name = dataset_info["producer"],
+                roles = ["producer"]
+            )
+        )
+        collection.providers.append(
+            pystac.Provider(
+                    name = "NLS",
+                    roles = ["processor"]
+            )
+        )
 
     print(f"Collection made: {collection.id}")
     
@@ -222,6 +263,7 @@ if __name__ == "__main__":
                 item.common_metadata.start_datetime = item_starttime
                 item.common_metadata.end_datetime = item_endtime
                 item.extra_fields["gsd"] = min_gsd
+                item.properties["proj:epsg"] = 3067
                 collection.add_item(item)
                 print(f"* Item made: {item.id}")
 
@@ -232,5 +274,10 @@ if __name__ == "__main__":
         temporal = [[min(start_times), max(end_times)]]
         collection.extent.spatial = pystac.SpatialExtent(bounds)
         collection.extent.temporal = pystac.TemporalExtent(temporal)
+
+        # Sort the GSD Summaries and add the lowest and highest to the description
+        sorted_gsd = sorted(collection.summaries.lists["gsd"])
+        collection.summaries.lists["gsd"] = sorted_gsd
+        collection.description = re.sub('XXXX', f"{sorted_gsd[0]}m-{sorted_gsd[-1]}m", collection.description)
 
     catalog.normalize_and_save("GeoCubes")

@@ -170,7 +170,7 @@
     },
     "start_datetime": "2018-01-01T00:00:00Z",
     "end_datetime": "2018-12-31T00:00:00Z",
-    "datetime": "2023-08-16T09:17:10.515456Z"
+    "datetime": "2023-09-06T05:13:48.988583Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -209,13 +209,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Country"
+      "title": "Country (GeoCubes)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Country"
+      "title": "Country (GeoCubes)"
     }
   ],
   "assets": {

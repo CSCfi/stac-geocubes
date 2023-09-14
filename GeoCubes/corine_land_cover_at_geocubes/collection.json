@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "corine_land_cover_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Thematically detailed information on land cover and land cover changes across Europe",
+  "description": "Thematically detailed information on land cover and land cover changes across Europe. Provided by SYKE. Scale: 10m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -1215,7 +1215,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Corine Land Cover",
+  "title": "Corine Land Cover (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -1249,6 +1249,12 @@
       "name": "SYKE",
       "roles": [
         "producer"
+      ]
+    },
+    {
+      "name": "NLS",
+      "roles": [
+        "processor"
       ]
     }
   ],

@@ -170,7 +170,7 @@
     },
     "start_datetime": "2021-01-01T00:00:00Z",
     "end_datetime": "2021-12-31T00:00:00Z",
-    "datetime": "2023-08-16T10:17:36.208835Z"
+    "datetime": "2023-09-06T06:13:56.001175Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -209,13 +209,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 SWIR (B11) 07/2021"
+      "title": "Sentinel-2 SWIR (B11) 07/2021 (GeoCubes)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 SWIR (B11) 07/2021"
+      "title": "Sentinel-2 SWIR (B11) 07/2021 (GeoCubes)"
     }
   ],
   "assets": {

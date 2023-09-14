@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "forest_inventory_land_class_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Forestry land divided into three sub-categories: forest land, poorly productive forest land and unproductive land, from the Multi-Source National Forest Inventory of Finland",
+  "description": "Forestry land divided into three sub-categories: forest land, poorly productive forest land and unproductive land, from the Multi-Source National Forest Inventory of Finland. Provided by LUKE. Scale: 10m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -615,7 +615,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Forest inventory, land class",
+  "title": "Forest inventory, land class (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -649,6 +649,12 @@
       "name": "LUKE",
       "roles": [
         "producer"
+      ]
+    },
+    {
+      "name": "NLS",
+      "roles": [
+        "processor"
       ]
     }
   ],

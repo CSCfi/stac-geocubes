@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "forest_inventory_site_fertility_class_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Forest grouped by vegetation zones into uniform classes according to their site fertility and wood production capacity, from the Multi-Source National Forest Inventory of Finland",
+  "description": "Forest grouped by vegetation zones into uniform classes according to their site fertility and wood production capacity, from the Multi-Source National Forest Inventory of Finland. Provided by LUKE. Scale: 10m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -615,7 +615,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Forest inventory, site fertility class",
+  "title": "Forest inventory, site fertility class (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -649,6 +649,12 @@
       "name": "LUKE",
       "roles": [
         "producer"
+      ]
+    },
+    {
+      "name": "NLS",
+      "roles": [
+        "processor"
       ]
     }
   ],

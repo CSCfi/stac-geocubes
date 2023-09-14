@@ -170,7 +170,7 @@
     },
     "start_datetime": "2022-01-01T00:00:00Z",
     "end_datetime": "2022-12-31T00:00:00Z",
-    "datetime": "2023-08-16T09:44:04.926683Z"
+    "datetime": "2023-09-06T05:41:02.091519Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -209,13 +209,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Municipalities"
+      "title": "Municipalities (GeoCubes)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Municipalities"
+      "title": "Municipalities (GeoCubes)"
     }
   ],
   "assets": {

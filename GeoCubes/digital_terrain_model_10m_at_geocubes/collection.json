@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "digital_terrain_model_10m_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Digital Terrain Model (DTM) representing ground surface with 10m original resolution",
+  "description": "Digital Terrain Model (DTM) representing ground surface with 10m original resolution. Provided by NLS. Scale: 10m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -325,7 +325,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Digital Terrain Model 10m",
+  "title": "Digital Terrain Model 10m (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -356,9 +356,10 @@
       "url": "https://www.csc.fi/"
     },
     {
-      "name": "MML",
+      "name": "NLS",
       "roles": [
-        "producer"
+        "producer",
+        "processor"
       ]
     }
   ],

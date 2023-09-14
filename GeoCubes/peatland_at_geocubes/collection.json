@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "peatland_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Land consisting largely of peat or peat bogs",
+  "description": "Land consisting largely of peat or peat bogs. Provided by NLS. Scale: 1m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -315,7 +315,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Peatland",
+  "title": "Peatland (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -346,9 +346,10 @@
       "url": "https://www.csc.fi/"
     },
     {
-      "name": "MML",
+      "name": "NLS",
       "roles": [
-        "producer"
+        "producer",
+        "processor"
       ]
     }
   ],

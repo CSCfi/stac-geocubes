@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "digital_surface_model_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Surface model of both the natural and built/artificial features of the environment",
+  "description": "Surface model of both the natural and built/artificial features of the environment. Provided by NLS. Scale: 1m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -615,7 +615,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Digital Surface Model",
+  "title": "Digital Surface Model (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -646,9 +646,10 @@
       "url": "https://www.csc.fi/"
     },
     {
-      "name": "MML",
+      "name": "NLS",
       "roles": [
-        "producer"
+        "producer",
+        "processor"
       ]
     }
   ],

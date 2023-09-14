@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "forest_inventory_basal_area_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "The basal area of the growing stock on a forest stand is the cross section area of the tree stems of a stand per hectare and measured at a height of 1.3m, from the Multi-Source National Forest Inventory of Finland",
+  "description": "The basal area of the growing stock on a forest stand is the cross section area of the tree stems of a stand per hectare and measured at a height of 1.3m, from the Multi-Source National Forest Inventory of Finland. Provided by LUKE. Scale: 10m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -615,7 +615,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Forest inventory, basal area",
+  "title": "Forest inventory, basal area (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -649,6 +649,12 @@
       "name": "LUKE",
       "roles": [
         "producer"
+      ]
+    },
+    {
+      "name": "NLS",
+      "roles": [
+        "processor"
       ]
     }
   ],

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "wind_velocity_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Average wind velocity at the height of 50m",
+  "description": "Average wind velocity at the height of 50m. Provided by FMI. Scale: 2m-100m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -315,7 +315,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Wind velocity",
+  "title": "Wind velocity (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -346,18 +346,24 @@
       "url": "https://www.csc.fi/"
     },
     {
-      "name": "IL",
+      "name": "FMI",
       "roles": [
         "producer"
+      ]
+    },
+    {
+      "name": "NLS",
+      "roles": [
+        "processor"
       ]
     }
   ],
   "summaries": {
     "gsd": [
-      100,
       2,
       5,
-      10
+      10,
+      100
     ]
   },
   "assets": {

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "municipalities_land_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Municipalities in Finland land area",
+  "description": "Municipalities in Finland land area. Provided by NLS. Scale: 1m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -915,7 +915,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Municipalities land",
+  "title": "Municipalities land (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -946,9 +946,10 @@
       "url": "https://www.csc.fi/"
     },
     {
-      "name": "MML",
+      "name": "NLS",
       "roles": [
-        "producer"
+        "producer",
+        "processor"
       ]
     }
   ],

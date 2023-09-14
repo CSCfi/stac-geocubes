@@ -3,7 +3,7 @@
   "stac_version": "1.0.0",
   "id": "peatland_2020_600000_7000000",
   "properties": {
-    "proj:epsg": 9391,
+    "proj:epsg": 3067,
     "proj:geometry": {
       "type": "Polygon",
       "coordinates": [
@@ -170,7 +170,7 @@
     },
     "start_datetime": "2020-01-01T00:00:00Z",
     "end_datetime": "2020-12-31T00:00:00Z",
-    "datetime": "2023-08-16T10:09:17.951819Z"
+    "datetime": "2023-09-06T06:04:55.842260Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -209,13 +209,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Peatland"
+      "title": "Peatland (GeoCubes)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Peatland"
+      "title": "Peatland (GeoCubes)"
     }
   ],
   "assets": {

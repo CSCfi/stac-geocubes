@@ -13,217 +13,217 @@
       "rel": "child",
       "href": "./country_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Country"
+      "title": "Country (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./country_land_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Country land"
+      "title": "Country land (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./regional_state_administrative_agencies_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Regional State Administrative Agencies"
+      "title": "Regional State Administrative Agencies (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./regional_state_administrative_agencies_land_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Regional State Administrative Agencies land"
+      "title": "Regional State Administrative Agencies land (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./regions_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Regions"
+      "title": "Regions (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./regions_land_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Regions land"
+      "title": "Regions land (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./municipalities_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Municipalities"
+      "title": "Municipalities (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./municipalities_land_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Municipalities land"
+      "title": "Municipalities land (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./digital_terrain_model_10m_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Digital Terrain Model 10m"
+      "title": "Digital Terrain Model 10m (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./digital_terrain_model_2m_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Digital Terrain Model 2m"
+      "title": "Digital Terrain Model 2m (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./digital_terrain_model_2m_aspect_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Digital Terrain Model 2m, Aspect"
+      "title": "Digital Terrain Model 2m, Aspect (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./digital_terrain_model_2m_slope_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Digital Terrain Model 2m, Slope"
+      "title": "Digital Terrain Model 2m, Slope (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./digital_surface_model_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Digital Surface Model"
+      "title": "Digital Surface Model (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./sea_regions_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Sea regions"
+      "title": "Sea regions (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./orthophoto_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Orthophoto"
+      "title": "Orthophoto (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./peatland_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Peatland"
+      "title": "Peatland (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./building_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Building"
+      "title": "Building (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./land_parcels_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Land parcels"
+      "title": "Land parcels (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./corine_land_cover_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Corine Land Cover"
+      "title": "Corine Land Cover (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_stand_class_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest stand class"
+      "title": "Forest stand class (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./vegetation_height_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Vegetation height"
+      "title": "Vegetation height (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./canopy_cover_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Canopy cover"
+      "title": "Canopy cover (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./ndvi_max_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "NDVI max 2021"
+      "title": "NDVI max 2021 (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./sentinel_2_satellite_image_mosaic_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 satellite image mosaic 07/2021"
+      "title": "Sentinel-2 satellite image mosaic 07/2021 (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./sentinel_2_nir_b08_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 NIR (B08) 07/2021"
+      "title": "Sentinel-2 NIR (B08) 07/2021 (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./sentinel_2_swir_b11_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 SWIR (B11) 07/2021"
+      "title": "Sentinel-2 SWIR (B11) 07/2021 (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_inventory_volume_of_growing_stock_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest inventory, volume of growing stock"
+      "title": "Forest inventory, volume of growing stock (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_inventory_volume_spruce_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest inventory, volume spruce"
+      "title": "Forest inventory, volume spruce (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_inventory_volume_pine_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest inventory, volume pine"
+      "title": "Forest inventory, volume pine (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_inventory_volume_birch_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest inventory, volume birch"
+      "title": "Forest inventory, volume birch (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_inventory_basal_area_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest inventory, basal area"
+      "title": "Forest inventory, basal area (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_inventory_land_class_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest inventory, land class"
+      "title": "Forest inventory, land class (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_inventory_site_main_class_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest inventory, site main class"
+      "title": "Forest inventory, site main class (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./forest_inventory_site_fertility_class_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Forest inventory, site fertility class"
+      "title": "Forest inventory, site fertility class (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./superficial_deposits_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Superficial deposits"
+      "title": "Superficial deposits (GeoCubes)"
     },
     {
       "rel": "child",
       "href": "./wind_velocity_at_geocubes/collection.json",
       "type": "application/json",
-      "title": "Wind velocity"
+      "title": "Wind velocity (GeoCubes)"
     },
     {
       "rel": "self",

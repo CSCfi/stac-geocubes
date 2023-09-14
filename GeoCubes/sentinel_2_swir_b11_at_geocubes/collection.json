@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sentinel_2_swir_b11_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B11)",
+  "description": "Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B11). Provided by SYKE. Scale: 10m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -315,7 +315,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Sentinel-2 SWIR (B11) 07/2021",
+  "title": "Sentinel-2 SWIR (B11) 07/2021 (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -346,9 +346,21 @@
       "url": "https://www.csc.fi/"
     },
     {
+      "name": "ESA",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
       "name": "SYKE",
       "roles": [
         "producer"
+      ]
+    },
+    {
+      "name": "NLS",
+      "roles": [
+        "processor"
       ]
     }
   ],

@@ -170,7 +170,7 @@
     },
     "start_datetime": "2009-01-01T00:00:00Z",
     "end_datetime": "2009-12-31T00:00:00Z",
-    "datetime": "2023-08-16T10:30:58.008255Z"
+    "datetime": "2023-09-06T06:27:22.609877Z"
   },
   "geometry": {
     "type": "Polygon",
@@ -209,13 +209,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Forest inventory, site fertility class"
+      "title": "Forest inventory, site fertility class (GeoCubes)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Forest inventory, site fertility class"
+      "title": "Forest inventory, site fertility class (GeoCubes)"
     }
   ],
   "assets": {

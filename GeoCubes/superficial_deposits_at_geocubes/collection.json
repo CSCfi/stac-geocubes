@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "superficial_deposits_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "The Superficial deposits of Finland (sediment polygons)",
+  "description": "The Superficial deposits of Finland (sediment polygons). Provided by GTK. Scale: 10m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -325,7 +325,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Superficial deposits",
+  "title": "Superficial deposits (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -359,6 +359,12 @@
       "name": "GTK",
       "roles": [
         "producer"
+      ]
+    },
+    {
+      "name": "NLS",
+      "roles": [
+        "processor"
       ]
     }
   ],

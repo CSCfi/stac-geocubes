@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "regional_state_administrative_agencies_at_geocubes",
   "stac_version": "1.0.0",
-  "description": "Regional State Administrative Agencies in Finland (AVI)",
+  "description": "Regional State Administrative Agencies in Finland (AVI). Provided by NLS. Scale: 1m-1000m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -925,7 +925,7 @@
       "type": "application/json"
     }
   ],
-  "title": "Regional State Administrative Agencies",
+  "title": "Regional State Administrative Agencies (GeoCubes)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -956,9 +956,10 @@
       "url": "https://www.csc.fi/"
     },
     {
-      "name": "MML",
+      "name": "NLS",
       "roles": [
-        "producer"
+        "producer",
+        "processor"
       ]
     }
   ],
