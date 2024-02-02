@@ -3,7 +3,7 @@ Scripts to convert GeoCubes into STAC collections
 
 GeoCubes-folder contains a backup of the completed collections
 
-The collection information and translations are in `karttatasot.csv`
+The collection information and translations are in `karttatasot.csv`. If new datasets are added to GeoCubes, the translations of these datasets need to be added to `karttatasot.csv` before the script takes them into account.
 
 Run `geocubes_stac.py` to turn the GeoCubes into STAC
 ```bash
