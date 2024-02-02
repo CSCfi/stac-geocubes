@@ -35,3 +35,4 @@ MVMI päätyyppi,"Forest inventory, site main class","Forest land, poorly produc
 MVMI kasvupaikka,"Forest inventory, site fertility class","Forest grouped by vegetation zones into uniform classes according to their site fertility and wood production capacity, from the Multi-Source National Forest Inventory of Finland"
 Pintamaalaji,Superficial deposits,The Superficial deposits of Finland (sediment polygons)
 Tuuli,Wind velocity,Average wind velocity at the height of 50m
+MVMI muu lehtipuu,"Forest inventory, volume of other deciduous tree","Volume of growing other deciduous tree stock, from the Multi-Source National Forest Inventory of Finland"
