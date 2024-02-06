@@ -16,12 +16,6 @@ def change_to_https(request: requests.Request) -> requests.Request:
     request.url = request.url.replace("http:", "https:")
     return request
 
-def check_conforms(catalog_client):
-    if not catalog_client.conforms_to("COLLECTIONS"):
-        catalog_client.add_conforms_to("COLLECTIONS")
-    if not catalog_client.conforms_to("FEATURES"):
-        catalog_client.add_conforms_to("FEATURES")
-
 def get_datasets():
     """
         Datasets can be obtained from an API endpoint.
@@ -348,7 +342,6 @@ if __name__ == "__main__":
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
     csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
-    check_conforms(csc_catalog_client)
 
     print(f"Updating STAC Catalog at {args.host}")
     update_catalog(app_host, csc_catalog_client)
