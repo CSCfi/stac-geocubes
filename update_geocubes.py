@@ -184,6 +184,7 @@ def update_catalog(app_host, csc_catalog_client):
         print(f"Checking new items for {csc_collection.id}: ", end="")
 
         number_of_items_in_geocubes = 0
+        number_of_items_added = 0
         for year_path in paths:
 
             #TIFs through BeautifulSoup
@@ -204,7 +205,6 @@ def update_catalog(app_host, csc_catalog_client):
                     grouped_dict[prefix].append(item)
             
             number_of_items_in_geocubes = number_of_items_in_geocubes + len(grouped_dict.keys())
-            number_of_items_added = 0
             for key in grouped_dict.keys():
                 
                 # Takes the year from the path
@@ -341,7 +341,7 @@ if __name__ == "__main__":
     start = time.time()
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
+    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/")#, request_modifier=change_to_https)
 
     print(f"Updating STAC Catalog at {args.host}")
     update_catalog(app_host, csc_catalog_client)
