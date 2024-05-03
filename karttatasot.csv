@@ -22,9 +22,9 @@ Puustoisuusluokat,Forest stand class,Forest stand classification
 Kasvillisuuden korkeus,Vegetation height,Height of vegetation based on laser scanning analysis
 Latvuspeitto,Canopy cover,Percentage of the area covered by tree canopies
 NDVI:n maksimiarvo v.2021,NDVI max 2021,Maximum value of the Normalized Difference Vegetation Index calculated from Sentinel-2 image index mosaics
-Sentinel-2 kuvamosaiikki 07/2021,Sentinel-2 satellite image mosaic 07/2021,"Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B02, B03, B04)"
-Sentinel-2 NIR (kanava 8) 07/2021,Sentinel-2 NIR (B08) 07/2021,Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B08)
-Sentinel-2 SWIR (kanava 11) 07/2021,Sentinel-2 SWIR (B11) 07/2021,Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B11)
+Sentinel-2 kuvamosaiikki,Sentinel-2 satellite image mosaic,"Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B02, B03, B04)"
+Sentinel-2 NIR (kanava 8),Sentinel-2 NIR (B08),Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B08)
+Sentinel-2 SWIR (kanava 11),Sentinel-2 SWIR (B11),Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B11)
 MVMI kokonaistilavuus,"Forest inventory, volume of growing stock","The volume of growing stock is available as a total for all tree species, from the Multi-Source National Forest Inventory of Finland"
 MVMI kuusi,"Forest inventory, volume spruce","Volume of growing spruce stock, from the Multi-Source National Forest Inventory of Finland"
 MVMI mänty,"Forest inventory, volume pine","Volume of growing pine stock, from the Multi-Source National Forest Inventory of Finland"
