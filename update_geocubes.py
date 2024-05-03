@@ -341,7 +341,7 @@ if __name__ == "__main__":
     start = time.time()
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/")#, request_modifier=change_to_https)
+    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
 
     print(f"Updating STAC Catalog at {args.host}")
     update_catalog(app_host, csc_catalog_client)
