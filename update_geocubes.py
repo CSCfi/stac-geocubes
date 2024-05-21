@@ -14,6 +14,8 @@ from urllib.parse import urljoin
 
 def change_to_https(request: requests.Request) -> requests.Request: 
     request.url = request.url.replace("http:", "https:")
+    # This is for to help filtering logging, not needed otherwise
+    request.headers["User-Agent"] = "update-script"
     return request
 
 def get_datasets():
@@ -156,6 +158,7 @@ def update_catalog(app_host, csc_catalog_client):
     title_regex_pattern = r" \(GeoCubes\)"
     session = requests.Session()
     session.auth = ("admin", pwd)
+    log_headers = {"User-Agent": "update-script"} # Added for easy log-filtering
 
     # Get all Geocubes collections from the app_host
     csc_collections = [col for col in csc_catalog_client.get_collections() if col.id.endswith("at_geocubes")]
@@ -300,7 +303,7 @@ def update_catalog(app_host, csc_catalog_client):
                     item_dict = item.to_dict()
                     converted_item = json_convert(item_dict)
                     request_point = f"collections/{csc_collection.id}/products"
-                    r = session.post(urljoin(app_host, request_point), json=converted_item)
+                    r = session.post(urljoin(app_host, request_point), headers=log_headers, json=converted_item)
                     r.raise_for_status()
 
         print(f"{len(csc_collection_item_ids)}/{number_of_items_in_geocubes}")
@@ -311,7 +314,7 @@ def update_catalog(app_host, csc_catalog_client):
             converted_collection = json_convert(collection_dict)
             request_point = f"collections/{csc_collection.id}/"
 
-            r = session.put(urljoin(app_host, request_point), json=converted_collection)
+            r = session.put(urljoin(app_host, request_point), headers=log_headers, json=converted_collection)
             r.raise_for_status()
             print(f" + Number of items added: {number_of_items_added}")
             print(" + Updated Collection Extents.")
