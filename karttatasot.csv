@@ -21,7 +21,7 @@ CORINE,Corine Land Cover,Thematically detailed information on land cover and lan
 Puustoisuusluokat,Forest stand class,Forest stand classification
 Kasvillisuuden korkeus,Vegetation height,Height of vegetation based on laser scanning analysis
 Latvuspeitto,Canopy cover,Percentage of the area covered by tree canopies
-NDVI:n maksimiarvo v.2021,NDVI max 2021,Maximum value of the Normalized Difference Vegetation Index calculated from Sentinel-2 image index mosaics
+NDVI:n maksimiarvo,NDVI max,Maximum value of the Normalized Difference Vegetation Index calculated from Sentinel-2 image index mosaics
 Sentinel-2 kuvamosaiikki,Sentinel-2 satellite image mosaic,"Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B02, B03, B04)"
 Sentinel-2 NIR (kanava 8),Sentinel-2 NIR (B08),Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B08)
 Sentinel-2 SWIR (kanava 11),Sentinel-2 SWIR (B11),Sentinel-2 satellite image mosaics produced from data provided by MultiSpectral Instruments (MSI) onboard Sentinel-2A and -2B satellites (B11)
@@ -36,4 +36,4 @@ MVMI kasvupaikka,"Forest inventory, site fertility class","Forest grouped by veg
 Pintamaalaji,Superficial deposits,The Superficial deposits of Finland (sediment polygons)
 Tuuli,Wind velocity,Average wind velocity at the height of 50m
 MVMI muu lehtipuu,"Forest inventory, volume of other deciduous tree","Volume of growing other deciduous tree stock, from the Multi-Source National Forest Inventory of Finland"
-Sentinel-1 Global Backscatter Model-kuvamosaiikki,"Sentinel-1 Global Backscatter Model-mosaic","Sentinel-1 satellite GBM mosaic of the temporal mean of VV- and VH-polarized C-band backscatter of the Earth's land surface, normalized to incidence angle of 38°."
+Sentinel-1 GBM-kuvamosaiikki 2017,"Sentinel-1 Global Backscatter Model-mosaic","Sentinel-1 satellite GBM mosaic of the temporal mean of VV- and VH-polarized C-band backscatter of the Earth's land surface, normalized to incidence angle of 38°"

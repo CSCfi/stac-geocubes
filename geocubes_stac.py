@@ -18,7 +18,7 @@ def create_collection(collection_info, dataset_info):
 
     # The regural expression sub is changing the spaces into underscores
     # For sentinel and NDVI collections, the name is specified a bit different as the names contain the years/months of the data
-    col_name = re.sub('\W+','_', collection_info['Name'].lower())
+    col_name = re.sub(r'\W+','_', collection_info['Name'].lower())
     if "sentinel" in col_name:
         split = col_name.split("_")[:-2]
         col_name = "_".join(split)
