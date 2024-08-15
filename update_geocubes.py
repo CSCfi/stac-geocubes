@@ -12,8 +12,7 @@ from bs4 import BeautifulSoup
 from rio_stac.stac import create_stac_item
 from urllib.parse import urljoin
 
-def change_to_https(request: requests.Request) -> requests.Request: 
-    request.url = request.url.replace("http:", "https:")
+def change_user_agent(request: requests.Request) -> requests.Request: 
     # This is to help filtering logging, not needed otherwise
     request.headers["User-Agent"] = "update-script"
     return request
@@ -344,7 +343,7 @@ if __name__ == "__main__":
     start = time.time()
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
+    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_user_agent)
 
     print(f"Updating STAC Catalog at {args.host}")
     update_catalog(app_host, csc_catalog_client)

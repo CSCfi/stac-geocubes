@@ -7,8 +7,9 @@ from pathlib import Path
 from requests.auth import HTTPBasicAuth
 from urllib.parse import urljoin
 
-def change_to_https(request: requests.Request) -> requests.Request: 
-    request.url = request.url.replace("http:", "https:")
+def change_user_agent(request: requests.Request) -> requests.Request: 
+    # This is to help filtering logging, not needed otherwise
+    request.headers["User-Agent"] = "update-script"
     return request
 
 def json_convert(jsonfile):
@@ -124,15 +125,13 @@ if __name__ == "__main__":
     pwd = getpass.getpass()
 
     # The uploaded collection is specific below, this could be done with an argument in the future
-    collection_name = "wind_velocity_at_geocubes"
+    collection_name = "sentinel_1_global_backscatter_at_geocubes"
 
     workingdir = Path(__file__).parent
     collection_folder = workingdir / "GeoCubes" / collection_name
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-
-    # Uncomment the request_modifier if uploading to hosts with HTTPS
-    catalog = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
+    catalog = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_user_agent)
 
     # Convert the STAC collection json into json that GeoServer can handle
     converted = json_convert(collection_folder / "collection.json")

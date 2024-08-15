@@ -4,15 +4,10 @@ import re
 import argparse
 import pystac_client
 
-def change_to_https(request: requests.Request) -> requests.Request: 
-    request.url = request.url.replace("http:", "https:")
+def change_user_agent(request: requests.Request) -> requests.Request: 
+    # This is to help filtering logging, not needed otherwise
+    request.headers["User-Agent"] = "update-script"
     return request
-
-def check_conforms(catalog_client):
-    if not catalog_client.conforms_to("COLLECTIONS"):
-        catalog_client.add_conforms_to("COLLECTIONS")
-    if not catalog_client.conforms_to("FEATURES"):
-        catalog_client.add_conforms_to("FEATURES")
 
 def get_datasets():
     """
@@ -48,8 +43,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
-    check_conforms(csc_catalog_client)
+    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_user_agent)
 
     title_regex_pattern = r" \(GeoCubes\)"
 
