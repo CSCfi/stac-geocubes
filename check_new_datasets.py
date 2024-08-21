@@ -4,11 +4,6 @@ import re
 import argparse
 import pystac_client
 
-def change_user_agent(request: requests.Request) -> requests.Request: 
-    # This is to help filtering logging, not needed otherwise
-    request.headers["User-Agent"] = "update-script"
-    return request
-
 def get_datasets():
     """
         Datasets can be obtained from an API endpoint.
@@ -43,7 +38,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_user_agent)
+    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", headers={"User-Agent":"update-script"})
 
     title_regex_pattern = r" \(GeoCubes\)"
 

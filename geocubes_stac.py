@@ -7,7 +7,6 @@ import re
 from bs4 import BeautifulSoup
 from rio_stac.stac import create_stac_item
 from shapely.geometry import GeometryCollection, shape
-from pathlib import Path
 
 def create_collection(collection_info, dataset_info):
 

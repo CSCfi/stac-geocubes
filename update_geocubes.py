@@ -12,11 +12,6 @@ from bs4 import BeautifulSoup
 from rio_stac.stac import create_stac_item
 from urllib.parse import urljoin
 
-def change_user_agent(request: requests.Request) -> requests.Request: 
-    # This is to help filtering logging, not needed otherwise
-    request.headers["User-Agent"] = "update-script"
-    return request
-
 def get_datasets():
     """
         Datasets can be obtained from an API endpoint.
@@ -343,10 +338,10 @@ if __name__ == "__main__":
     start = time.time()
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_user_agent)
+    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", headers={"User-Agent":"update-script"})
 
     print(f"Updating STAC Catalog at {args.host}")
     update_catalog(app_host, csc_catalog_client)
 
     end = time.time()
-    print(f"Script took {round(end-start, 1)} seconds")
+    print(f"Script took {end-start:.2f} seconds")
